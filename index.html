@@ -618,6 +618,8 @@
       document.getElementById('splash-guest').style.display = 'block';
       document.getElementById('nama-tamu').innerText = decoded;
       document.getElementById('guest-box').style.display = 'block';
+      // ★ Auto-fill nama di form ucapan (tamu masih bisa edit)
+      document.getElementById('commentName').value = decoded;
     }
 
     // ===== SPLASH =====
